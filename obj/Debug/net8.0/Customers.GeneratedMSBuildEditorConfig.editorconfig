@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Project 1\Customers
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Project 1/Customers/Views/Home/CustomerForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lckZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Project 1/Customers/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project 1/Customers/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project 1/Customers/Views/Home/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFua3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project 1/Customers/Views/Shared/Error.cshtml]
