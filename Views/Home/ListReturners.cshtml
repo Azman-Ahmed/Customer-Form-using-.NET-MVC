@@ -1,24 +1,35 @@
-﻿@model Customers.Models.Customer
+﻿@model IEnumerable<Customers.Models.Customer>
+
 @{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Thank you! @Model?.FirstName</h1>
+    <h1 class="display-4">Returning Customers</h1>
 
-    @if(Model?.willubuyagain == true)
-    {
-        @:Thank you for your support!
-    }
-    else
-    {
-        @:We are very sorry to hear that.
-        @:Please let us know how we can improve!
-    }
+    <table class="table mt-3">
+        <thread>
+            <tr>
+                <th> First Name</th>
+                <th> Last Name</th>
+                <th> Email</th>
+            </tr>
+        <tbody>
+            @foreach(Customers.Models.Customer r in Model)
+            {
+                <tr>
+                    <td>@r.FirstName</td>
+                    <td>@r.LastName</td>
+                    <td>@r.Email</td>
+                </tr>   
+            }
+        </tbody>
+        </thread>
+    </table>
 
-    <p>
-        <a asp-action="ListReturns"> List of Returning Customers.</a>
-    </p>
+
+
+
 
 
 </div>
