@@ -10,19 +10,31 @@ namespace ICustomers.Controllers
         {
             return View();
         }
+
+
         [HttpGet]
         public ViewResult CustomerForm()
         {
             return View();
         }
+
+
         [HttpPost]
         public ViewResult CustomerForm(Customer customer)
         {
-            Repository.AddResponses(customer);
-            return View("Thanks", customer);
+            if (ModelState.IsValid)
+            {
+                Repository.AddResponses(customer);
+                return View("Thanks", customer);
+            }
+            else
+            {
+                return View();
+            }
+            
         }
 
-        public ViewResult ListReturns()
+        public ViewResult ListReturners()
         {
             return View(Repository.Responses.Where(r => r.willubuyagain == true));
         }

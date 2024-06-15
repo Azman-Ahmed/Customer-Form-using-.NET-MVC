@@ -7,29 +7,30 @@
     <h1 class="display-4">Customer Form</h1>
     
     <form asp-action="CustomerForm" method="post">
+        <div asp-validation-summary="All"></div>
         <div class="mb-3">
             <label asp-for="FirstName" class="form-label"> First Name</label>
-            <input asp-for="FirstName" class="form-control"/>
+            <input type="text" asp-for="FirstName" class="form-control"/>
         </div>
 
         <div class="mb-3">
             <label asp-for="LastName" class="form-label"> Last Name</label>
-            <input asp-for="LastName" class="form-control" />
+            <input type="text" asp-for="LastName" class="form-control" />
         </div>
 
         <div class="mb-3">
             <label asp-for="Email" class="form-label"> Email</label>
-            <input asp-for="Email" class="form-control" />
+            <input type="text" asp-for="Email" class="form-control" />
         </div>
 
         <div class="mb-3">
             <label asp-for="Address" class="form-label"> Address</label>
-            <input asp-for="Address" class="form-control" />
+            <input type="text" asp-for="Address" class="form-control" />
         </div>
 
         <div class="mb-3">
             <label asp-for="Contact" class="form-label"> Contact</label>
-            <input asp-for="Contact" class="form-control" />
+            <input type="number" asp-for="Contact" class="form-control" />
         </div>
 
         <div class="mb-3">
