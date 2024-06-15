@@ -18,8 +18,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #597165;
+    margin-bottom: 60px;
 }
+
+
 
 div.validation-summary-errors ul{
         background: red;
