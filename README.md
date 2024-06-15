@@ -43,7 +43,12 @@ This project is a simple web application built using .NET Core 8.0 MVC. It allow
 - **Additional Features**: Add more functionalities based on user feedback.
 
 ## Screenshots
-(Add your screenshots here)
+<p align="center">
+  <tr>
+    <td><img src="./image/customer1.png" alt="Customer Form" width="350" /></td>
+    <td><img src="./image/customer2.png" alt="Customer Form" width="350" /></td>
+  </tr>
+</p>
 
 ## Contributing
 Feel free to fork this repository, make improvements, and submit a pull request. Your contributions are welcome!
